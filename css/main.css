@@ -1,0 +1,82 @@
+/*---General Styles--- */
+
+    body {
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    img, embed, object, video, picture {
+        max-width: 100%;
+    }
+
+    p, h1, h2, h3, h4, h5 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    a {
+        text-decoration: none;
+        transition: all .5s ease-in-out;
+    }
+
+    input, textarea {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    section h2, section h3, section p {
+        padding-left: 15px;
+    }
+
+    .spacer {
+        margin-top: 60px;
+    }
+
+    .txt-spacer {
+        margin-top: 30px;
+    }
+    
+    /* ---End of General Styles--- */
+
+    /*Box Heights*/
+
+    #product {
+        height: 100px;
+    } 
+    
+    #hero {
+        height: 200px;
+    }
+     
+    #service {
+        height: 150px;
+    }
+
+    #footer {
+        height: 200px;
+    }
+
+    /* Media query for height when screen stretch past tablet size. 
+    Tablet sizes are consistent for desktop as well, so no media query for desktop sizes needed.*/
+
+    @media screen and (min-width: 768px) {
+
+        #product {
+            height: 200px;
+        } 
+        
+        #hero {
+            height: 300px;
+        }
+         
+        #service {
+            height: 250px;
+        }
+    
+        #footer {
+            height: 300px;
+        }
+        
+    }
