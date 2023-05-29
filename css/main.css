@@ -42,7 +42,7 @@
 
     /*Box Heights*/
 
-    #product {
+    #product1 #product2  {
         height: 100px;
     } 
     
@@ -50,7 +50,7 @@
         height: 200px;
     }
      
-    #service {
+    #service1 #service2 #service3 #service4 #service5 #service6 {
         height: 150px;
     }
 
