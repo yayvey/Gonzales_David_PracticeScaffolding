@@ -4,6 +4,7 @@
 This web page is basic example of a media query based on the specs of the rubric. 
 I built mobile-first, using the class examples as a framework to build from.
 It reacts as expected from mobile, to tablet, and desktop.
+I have validated the code through validator.w3.org
 
 ## FROM RUBRIC
 
