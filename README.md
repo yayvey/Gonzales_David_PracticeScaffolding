@@ -1,5 +1,7 @@
 # Gonzales_David_PracticeScaffolding
- 
+
+## DESCRIPTION
+This web page is basic example of a media query based on the specs of the rubric. 
 I built mobile-first, using the class examples as a framework to build from.
 It reacts as expected from mobile, to tablet, and desktop.
 
